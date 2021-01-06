@@ -8,7 +8,8 @@ interface TooltipProps {
   className?: string;
 }
 
-const Tooltip: React.FC<TooltipProps> = ({ title , className, children }) => {
+// eslint-disable-next-line no-shadow
+const Tooltip: React.FC<TooltipProps> = ({ title, className, children }) => {
   return (
     <Container className={className}>
       {children}
